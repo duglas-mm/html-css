@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+
+    border: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: rgb(13, 34, 13);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+a {
+    border-radius: 10px;
+    border: 10px solid brown;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
